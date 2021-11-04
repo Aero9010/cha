@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="stylesheet/myStyles.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		
+		document.write("<h1>Hello Page 2</h1>"); //using HTML tags
+		
+			var winningNumber //Declaring a variable
+			var guessNumber //Declaring a variable
+			guessNumber = parseInt(prompt("Guess a number between 1 and 10 for a prize!")); //User input for a variable
+		
+			if(guessNumber==7){ //If statement to determine an outcome if the number inputted by user is 7, or else a differnt outcome will happen
+				document.write("Congratulations, you got the correct answer!");
+				document.write(" Your prize is my congratulaions.");
+			}else{
+				document.write("Wrong! You may try again.");
+			}
+		
+	</script>
+  </head>
+  <body>
+	<p>Blue</p>
+	<a href="js-index.html">Back</a>
+	
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="stylesheet/myStyles.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = "Erik";
+		document.write("Hi " +name+ "\n how are you? "); //making use of the variable
+		
+			var speed //Declaring a variable
+			var age //Declaring a variable
+			speed = parseInt(prompt("What was the highest speed the suspect was driving at?")); //User input for a variable
+			age = parseInt(prompt("What age is the suspect?")); //User input for a variable
+			if((speed>60 || age<18 )){  //If statement to determine an outcome if one of the conditions is true using logic operators
+				document.write("The suspect receives 2 penalty points.");
+			}else{
+				document.write("The suspect is innocent.");
+			}
+			
+			//This takes in 2 strings and parses the 2 strings into integers
+			var numberOne; //Declaring a variable
+			var numberTwo; //Declaring a variable
+			numberOne = parseInt(prompt("Enter the 1st number")); //User input for a variable
+			numberTwo = parseInt(prompt("Enter the 2nd number")); //User input for a variable
+			if(numberOne>numberTwo) { //If condition is met, it will execute whatever is in the curly brackets
+				document.write(" The 1st number is greater than the 2nd number");
+			}else{ //Else it will skip what's in the curly brackets above and proceed to here
+				document.write("The 2nd number is greater than the 1st number");
+			}
+			
+		
+		
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+	
+	
+  </body>
+</html>
